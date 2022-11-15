@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Showcase from "../layouts/Showcase.astro";
 
 const name = "Astro"
 
@@ -7,6 +8,7 @@ const name = "Astro"
 ---
 
 <Layout>
+	<Showcase showExtra={true} />
 	<h1>Hello {name}</h1>
 </Layout>
 
